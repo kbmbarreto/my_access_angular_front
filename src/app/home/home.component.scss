@@ -1,0 +1,63 @@
+/* Estilos para o contêiner principal */
+.container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para o menu lateral */
+.sidebar {
+  width: 200px;
+  background-color: #4f81bd;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.menu ul li {
+  margin: 15px 0;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.menu ul li a:hover {
+  background-color: #2e4c70;
+}
+
+/* Estilos para o conteúdo principal */
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #d8dde6;
+  color: #2e4c70;
+}
+
+.content h1 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.content p {
+  font-size: 16px;
+}
